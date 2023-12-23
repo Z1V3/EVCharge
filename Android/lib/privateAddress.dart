@@ -6,5 +6,5 @@
   In future, we will have a static address of a server provided and hosted by SICK Mobilisis
  */
 String returnAddress(){
-  return '192.168.1.226'; //replace with the IPv4 of your WLAN or ETH interface
+  return '192.168.1.11'; //replace with the IPv4 of your WLAN or ETH interface
 }

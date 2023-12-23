@@ -1,6 +1,7 @@
 import 'package:android/pages/charge_mode_page.dart';
 import 'package:android/pages/charging_history.dart';
 import 'package:android/pages/login_page.dart';
+import 'package:android/pages/rfid_cards_page.dart';
 import 'package:flutter/material.dart';
 import 'package:android/pages/user_mode_interface.dart';
 import 'package:android/providers/user_provider.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
           'chargeModePageRoute': (context) => const ChargeModePage(),
           'chargeHistoryPage': (context) => const ChargingHistoryPage(),
           'startMenuRoute': (context) => const StartMenu(),
+          'rfidCardsPage': (context) => const RfidCardsPage(),
         }
       )
     );
